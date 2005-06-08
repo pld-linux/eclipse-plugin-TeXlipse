@@ -17,26 +17,29 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_eclipsedir  	%{_libdir}/eclipse
 
 %description
-TeXlipse plugin adds LaTeX editing support to Eclipse. The plugin provides both Latex and Bibtex editors, project creation wizard and a complete user manual of the plugin features.
-Available features include: 
- * Syntax highlighting 
- * Document outline 
- * Section folding 
- * Command completion 
- * ref and cite completion 
- * Templates 
- * Builder integration 
- * Viewer integration with inverse search 
+TeXlipse plugin adds LaTeX editing support to Eclipse. The plugin
+provides both Latex and Bibtex editors, project creation wizard and a
+complete user manual of the plugin features. Available features
+include:
+ - Syntax highlighting
+ - Document outline
+ - Section folding
+ - Command completion
+ - ref and cite completion
+ - Templates
+ - Builder integration
+ - Viewer integration with inverse search
 
 %description -l pl
 TeXlipse jest wtyczk± ¶rodowiska LaTeX dla platformy Eclipse.
-Dostarcza edutory dla Latexa and Bibtexa, wizard tworzenia projektów i kompletny podrêcznik u¿ytkownika po udogodnieniach wtyczki.
-Dostêpne s±: 
- * pod¶wietlanie sk³adni 
- * zwijanie sekcji 
- * dopenianie komend 
- * dope³nianie znaczników ref i cite 
- * szablony 
+Dostarcza edutory dla Latexa and Bibtexa, wizard tworzenia projektów i
+kompletny podrêcznik u¿ytkownika po udogodnieniach wtyczki. Dostêpne
+s±:
+ - pod¶wietlanie sk³adni
+ - zwijanie sekcji
+ - dopenianie komend
+ - dope³nianie znaczników ref i cite
+ - szablony
 
 %prep
 %setup -q -c

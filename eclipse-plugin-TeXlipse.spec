@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	1
 License:	Eclipse Public License
 Group:		Development/Languages
-Source0:	http://dl.sourceforge.net/sourceforge/texlipse/net.sourceforge.texlipse_%{version}_src.zip
+Source0:	http://dl.sourceforge.net/texlipse/net.sourceforge.texlipse_%{version}_src.zip
 # Source0-md5:	a0d0b5954e65d5bd4287af6a3dde3b81
 URL:		http://texlipse.sourceforge.net/
 BuildRequires:	unzip
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 TeXlipse plugin adds LaTeX editing support to Eclipse. The plugin
-provides both Latex and Bibtex editors, project creation wizard and a
+provides both LaTeX and BibTeX editors, project creation wizard and a
 complete user manual of the plugin features. Available features
 include:
  - Syntax highlighting
@@ -32,12 +32,12 @@ include:
 
 %description -l pl
 TeXlipse jest wtyczk± ¶rodowiska LaTeX dla platformy Eclipse.
-Dostarcza edutory dla Latexa and Bibtexa, wizard tworzenia projektów i
+Dostarcza edytory dla LaTeXa and BibTeXa, wizard tworzenia projektów i
 kompletny podrêcznik u¿ytkownika po udogodnieniach wtyczki. Dostêpne
 s±:
  - pod¶wietlanie sk³adni
  - zwijanie sekcji
- - dopenianie komend
+ - dope³nianie poleceñ
  - dope³nianie znaczników ref i cite
  - szablony
 

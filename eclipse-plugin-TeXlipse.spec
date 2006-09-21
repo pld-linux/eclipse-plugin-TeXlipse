@@ -1,12 +1,12 @@
 Summary:	TeXlipse - plugin for Eclipse
 Summary(pl):	TeXlipse - wtyczka do ¶rodowiska Eclipse
 Name:		eclipse-plugin-TeXlipse
-Version:	1.0.2
+Version:	1.1.0
 Release:	1
 License:	Eclipse Public License
 Group:		Development/Languages
 Source0:	http://dl.sourceforge.net/texlipse/net.sourceforge.texlipse_%{version}_src.zip
-# Source0-md5:	a0d0b5954e65d5bd4287af6a3dde3b81
+# Source0-md5:	afac4f053457569f346f93ed8e0757c9
 URL:		http://texlipse.sourceforge.net/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.0

@@ -1,5 +1,5 @@
 Summary:	TeXlipse - plugin for Eclipse
-Summary(pl.UTF-8):   TeXlipse - wtyczka do środowiska Eclipse
+Summary(pl.UTF-8):	TeXlipse - wtyczka do środowiska Eclipse
 Name:		eclipse-plugin-TeXlipse
 Version:	1.1.0
 Release:	1

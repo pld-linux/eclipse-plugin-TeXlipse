@@ -1,5 +1,5 @@
 Summary:	TeXlipse - plugin for Eclipse
-Summary(pl):	TeXlipse - wtyczka do ¶rodowiska Eclipse
+Summary(pl.UTF-8):   TeXlipse - wtyczka do Å›rodowiska Eclipse
 Name:		eclipse-plugin-TeXlipse
 Version:	1.1.0
 Release:	1
@@ -30,15 +30,15 @@ include:
  - Builder integration
  - Viewer integration with inverse search
 
-%description -l pl
-TeXlipse jest wtyczk± ¶rodowiska LaTeX dla platformy Eclipse.
-Dostarcza edytory dla LaTeXa and BibTeXa, wizard tworzenia projektów i
-kompletny podrêcznik u¿ytkownika po udogodnieniach wtyczki. Dostêpne
-s±:
- - pod¶wietlanie sk³adni
+%description -l pl.UTF-8
+TeXlipse jest wtyczkÄ… Å›rodowiska LaTeX dla platformy Eclipse.
+Dostarcza edytory dla LaTeXa and BibTeXa, wizard tworzenia projektÃ³w i
+kompletny podrÄ™cznik uÅ¼ytkownika po udogodnieniach wtyczki. DostÄ™pne
+sÄ…:
+ - podÅ›wietlanie skÅ‚adni
  - zwijanie sekcji
- - dope³nianie poleceñ
- - dope³nianie znaczników ref i cite
+ - dopeÅ‚nianie poleceÅ„
+ - dopeÅ‚nianie znacznikÃ³w ref i cite
  - szablony
 
 %prep

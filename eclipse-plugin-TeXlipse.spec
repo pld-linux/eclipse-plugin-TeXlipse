@@ -1,20 +1,21 @@
+%define		plugin_name	texlipse
+
 Summary:	TeXlipse - plugin for Eclipse
 Summary(pl.UTF-8):	TeXlipse - wtyczka do środowiska Eclipse
 Name:		eclipse-plugin-TeXlipse
-Version:	1.1.0
+Version:	1.4.1
 Release:	1
 License:	Eclipse Public License
 Group:		Development/Languages
-Source0:	http://dl.sourceforge.net/texlipse/net.sourceforge.texlipse_%{version}_src.zip
-# Source0-md5:	afac4f053457569f346f93ed8e0757c9
+Source0:	http://downloads.sourceforge.net/project/texlipse/texlipse%20plugin/%{version}/texlipse_%{version}_src.zip
+# Source0-md5:	d79e6f877665a599d7c32894eef22e33
 URL:		http://texlipse.sourceforge.net/
 BuildRequires:	unzip
-Requires:	eclipse >= 3.0
+Requires:	eclipse >= 3.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_eclipse_arch	%(echo %{_target_cpu} | sed 's/i.86/x86/;s/athlon/x86/;s/pentium./x86/')
-%define		_eclipsedir  	%{_libdir}/eclipse
+%define		_plugindir	%{_libdir}/eclipse/dropins/%{plugin_name}
 
 %description
 TeXlipse plugin adds LaTeX editing support to Eclipse. The plugin
@@ -46,15 +47,16 @@ są:
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_eclipsedir}/plugins
+install -d $RPM_BUILD_ROOT%{_plugindir}/eclipse/plugins
 
-cp -r * $RPM_BUILD_ROOT%{_eclipsedir}
+cp -r plugins/net.sourceforge.texlipse_%{version} $RPM_BUILD_ROOT%{_plugindir}/eclipse/plugins
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_eclipsedir}
-%dir %{_eclipsedir}/plugins
-%{_eclipsedir}/plugins/*
+%dir %{_plugindir}
+%dir %{_plugindir}/eclipse
+%dir %{_plugindir}/eclipse/plugins
+%{_plugindir}/eclipse/plugins/*
